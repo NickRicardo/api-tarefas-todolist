@@ -34,8 +34,7 @@ public class TodoService {
         return list();
     }
 
-    public List<Todo> delete(Long id) {
+    public void delete (Long id) {
         repository.deleteById(id);
-        return list();
     }
 }

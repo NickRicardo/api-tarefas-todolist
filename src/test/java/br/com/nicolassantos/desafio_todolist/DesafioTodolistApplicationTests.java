@@ -17,7 +17,7 @@ class DesafioTodolistApplicationTests {
         var todo = new Todo("todo 1", "Desc Todo 1", false, 1);
     }
 
-    web
+
 
     @Test
     void testCreateTodoFailure() {
